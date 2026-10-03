@@ -1,0 +1,27 @@
+# Normalize text files to LF in the repository.
+* text=auto eol=lf
+
+# Source and documentation are always text.
+*.css text
+*.html text
+*.js text
+*.json text
+*.md text
+*.svelte text
+*.ts text
+*.tsx text
+*.yml text
+*.yaml text
+
+# Common binary assets must not be diffed or altered as text.
+*.avif binary
+*.gif binary
+*.ico binary
+*.jpeg binary
+*.jpg binary
+*.pdf binary
+*.png binary
+*.webp binary
+*.woff binary
+*.woff2 binary
+*.zip binary
