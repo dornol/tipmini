@@ -14,5 +14,13 @@ export function load({ params }) {
 		error(404, 'Tip not found');
 	}
 
-	return { tip };
+	return {
+		tip,
+		giscus: {
+			repo: import.meta.env.PUBLIC_GISCUS_REPO ?? '',
+			repoId: import.meta.env.PUBLIC_GISCUS_REPO_ID ?? '',
+			category: import.meta.env.PUBLIC_GISCUS_CATEGORY ?? '',
+			categoryId: import.meta.env.PUBLIC_GISCUS_CATEGORY_ID ?? ''
+		}
+	};
 }

@@ -1,4 +1,6 @@
 <script lang="ts">
+	import GiscusComments from '#lib/components/GiscusComments.svelte';
+
 	let { data } = $props();
 </script>
 
@@ -18,6 +20,8 @@
 
 		{@html data.tip.html}
 	</article>
+
+	<GiscusComments term={data.tip.slug} {...data.giscus} />
 </main>
 
 <style>
