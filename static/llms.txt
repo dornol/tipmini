@@ -5,6 +5,6 @@
 ## Articles
 
 - [macOS에서 화면을 빠르게 캡처하는 방법](https://tipmini.dornol.dev/tips/macos-screenshot/): 전체 화면과 선택 영역을 빠르게 캡처하는 macOS 단축키 (태그: macos, screenshot, productivity)
+- [따릉이 명마 고르는 법](https://tipmini.dornol.dev/tips/choose-a-good-seoul-bike/): 기어 표시창과 안장봉, 손잡이, 조절 레버로 신형 따릉이를 빠르게 구별하는 방법 (태그: 따릉이, 자전거, 서울, 생활)
 - [자주 사용하는 Git 명령어](https://tipmini.dornol.dev/tips/useful-git-commands/): 변경 사항 확인부터 커밋과 브랜치 관리까지 자주 쓰는 Git 명령어 (태그: git, terminal, development)
 - [자주 쓰는 VS Code 단축키](https://tipmini.dornol.dev/tips/vscode-shortcuts/): 파일 탐색과 코드 편집 속도를 높여주는 VS Code 단축키 모음 (태그: vscode, development, productivity)
-- [좋은 따릉이 고르는 요령](https://tipmini.dornol.dev/tips/choose-a-good-seoul-bike/): 여러 대가 있을 때 더 편하고 잘 나가는 따릉이를 빠르게 고르는 방법 (태그: 따릉이, 자전거, 서울, 생활)
