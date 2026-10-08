@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Tipmini</title>
+    <link>https://tipmini.dornol.dev/</link>
+    <description>일상과 생산성에 바로 활용할 수 있는 유용한 꿀팁 아카이브</description>
+    <language>ko-KR</language>
+    <item>
+      <title>좋은 따릉이 고르는 요령</title>
+      <link>https://tipmini.dornol.dev/tips/choose-a-good-seoul-bike/</link>
+      <guid>https://tipmini.dornol.dev/tips/choose-a-good-seoul-bike/</guid>
+      <description>여러 대가 있을 때 더 편하고 잘 나가는 따릉이를 빠르게 고르는 방법</description>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>macOS에서 화면을 빠르게 캡처하는 방법</title>
+      <link>https://tipmini.dornol.dev/tips/macos-screenshot/</link>
+      <guid>https://tipmini.dornol.dev/tips/macos-screenshot/</guid>
+      <description>전체 화면과 선택 영역을 빠르게 캡처하는 macOS 단축키</description>
+      <pubDate>Sat, 03 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>자주 사용하는 Git 명령어</title>
+      <link>https://tipmini.dornol.dev/tips/useful-git-commands/</link>
+      <guid>https://tipmini.dornol.dev/tips/useful-git-commands/</guid>
+      <description>변경 사항 확인부터 커밋과 브랜치 관리까지 자주 쓰는 Git 명령어</description>
+      <pubDate>Sat, 03 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>자주 쓰는 VS Code 단축키</title>
+      <link>https://tipmini.dornol.dev/tips/vscode-shortcuts/</link>
+      <guid>https://tipmini.dornol.dev/tips/vscode-shortcuts/</guid>
+      <description>파일 탐색과 코드 편집 속도를 높여주는 VS Code 단축키 모음</description>
+      <pubDate>Sat, 03 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

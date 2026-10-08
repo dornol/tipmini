@@ -6,6 +6,7 @@ export interface Tip {
 	slug: string;
 	tags: string[];
 	date: string;
+	updated?: string;
 	summary?: string;
 	html: string;
 }
@@ -24,6 +25,12 @@ export const tips: Tip[] = Object.values(files).map((raw) => {
 		slug: String(data.slug),
 		tags: Array.isArray(data.tags) ? data.tags.map(String) : [],
 		date: data.date instanceof Date ? data.date.toISOString() : String(data.date ?? ''),
+		updated:
+			data.updated instanceof Date
+				? data.updated.toISOString()
+				: data.updated
+					? String(data.updated)
+					: undefined,
 		summary: data.summary ? String(data.summary) : undefined,
 		html: marked.parse(content) as string
 	};
